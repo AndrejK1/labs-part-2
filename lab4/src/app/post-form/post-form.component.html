@@ -1,0 +1,12 @@
+<div>
+    <input type="text" class="form-control" #myInputText placeholder="Title..." [(ngModel)]="title">
+    <input type="text" class="form-control" #myInputTitle placeholder="Text..." [(ngModel)]="text">
+    <button class="btn" (click)="addPost()">Add post!</button>
+    <button class="btn" (click)="onLoadDefault()">Default style</button>
+
+    <hr/>
+    <h2>Search posts!</h2>
+    <input type="text" class="form-control" placeholder="Search..." [(ngModel)]="titleSearching" >
+    <button class="btn" (click)="searchByTitle()">Filter Title</button>
+    <button class="btn" (click)="searchByDescription()">Filter Description</button>
+</div>
