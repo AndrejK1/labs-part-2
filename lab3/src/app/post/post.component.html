@@ -1,0 +1,6 @@
+<div appIpz="red" appClick [post]="post" [dStyle] = "{marginTop: '5px'}" class="card">
+  <h2>{{post.title}}</h2>
+  <p> #{{post.id}} - {{post.text}} </p>
+</div>
+<button class="btn" (click)="removePost()">&#10006;</button>
+<ng-content> </ng-content>
