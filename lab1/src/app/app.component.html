@@ -1,0 +1,12 @@
+<app-angular-rocket></app-angular-rocket>
+
+<div class="container">
+  <div class="container">
+    <h1>Angular Component</h1>
+    <app-post-form></app-post-form>
+    <hr />
+    <app-post *ngFor="let p of posts" [post]="p"></app-post>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
