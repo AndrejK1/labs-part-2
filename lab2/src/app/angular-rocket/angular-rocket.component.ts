@@ -12,5 +12,5 @@ export class AngularRocketComponent implements OnInit {
   ngOnInit(): void {
   }
   
-  title = 'zieit-homework lab 1';
+  title = 'zieit-homework lab 2';
 }
